@@ -8,3 +8,6 @@ commands:
     description: Gets server info
     usage: /<command>
     aliases: server-info
+  server-restart:
+    description: Restarts The Server
+    usage: /<command>
