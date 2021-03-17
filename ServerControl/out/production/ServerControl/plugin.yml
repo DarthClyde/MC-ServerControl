@@ -1,0 +1,22 @@
+name: ServerControl
+version: 0.0.1
+author: rcaudillo
+main: com.rcaudillo.servercontrol.ServerControl
+api-version: 1.16
+commands:
+  server-info:
+    description: Gets server info
+    usage: /<command>
+  server-restart:
+    description: Restarts The Server
+    usage: /<command>
+    aliases: restart-server
+  finish-server-restart:
+    description: Finished The Server Restart
+    usage: /<command>
+  server-maintenance:
+    description: Put the server under maintenance
+    usage: /<command>
+  finish-server-maintenance:
+    description: Finished the server maintenance
+    usage: </command>
